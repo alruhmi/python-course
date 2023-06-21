@@ -1,0 +1,15 @@
+includes:      
+    - ./vendor/nunomaduro/larastan/extension.neon>
+
+parameters:
+    level: 5
+    reportUnmatchedIgnoredErrors: false>
+    paths:
+        - app
+        - tests
+    ignoreErrors:
+        - message: '#Undefined variable: \$this.*#'
+          path: tests/*
+        - message: '#Call to an undefined method Pest\\Expectation::.*#'
+          path: tests/*
+fahmi
