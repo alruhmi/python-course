@@ -1,0 +1,27 @@
+first class:
+  - name: fahmi
+    age: 29
+    job: programmer
+  - name: ruqaiah
+    age: 25
+    job: mananger
+  - name: Ethar
+    age: 20
+    job: programmer
+
+second class:
+  - name: rafat
+    age: 20
+    job: student
+  - name: mazen
+    age: 21
+    job: student
+
+class B:
+  - name: Ramzi
+    age: 38
+    job: programmer
+  - name: Ahlam
+    age: 38
+    job: home
+
