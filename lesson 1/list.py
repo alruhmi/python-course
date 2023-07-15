@@ -37,3 +37,12 @@ print(users)
 users.sort(reverse=True)
 
 print(users)
+
+users_copy = users[:]
+
+print(users_copy)
+print(users)
+
+users_copy = []
+
+print(users_copy)
